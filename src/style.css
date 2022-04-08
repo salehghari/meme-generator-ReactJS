@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla';
+}
+main {
+  padding: 100px 25vw;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+.controlBtns {
+  position: fixed;
+  left: 10px;
+  width: 200px;
+  height: 90px;
+}
+
+.controlBtns p {
+  color: rgb(23, 25, 25);
+}
+
+.controlBtns:nth-child(2) {
+  top: 100px;
+}
+.controlBtns:nth-child(3) {
+  top: 200px;
+}
+.controlBtns:nth-child(4) {
+  top: 300px;
+}
+.controlBtns:nth-child(5) {
+  top: 400px;
+}
+.controlBtns:nth-child(6) {
+  top: 500px;
+}
+
+.controlBtns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #711F8D;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.controlBtns button:nth-child(2) {
+  top: 25px;
+  left: 60px;
+}
+.controlBtns button:nth-child(3) {
+  top: 70px;
+  left: 60px;
+}
+.controlBtns button:nth-child(4) {
+  top: 47.5px;
+  left: 0px;
+}
+.controlBtns button:nth-child(5) {
+  top: 47.5px;
+  left: 120px;
+}
+input:focus {
+  outline: 1px solid #640088;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+.header--logo {
+  width: 46.95px;
+  height: 39.33px;
+  margin-left: 25px;
+}
+.header--title {
+  letter-spacing: -0.07em;
+  margin-left: 10px;
+  line-height: 24.25px;
+}
+.form--input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+.form--button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  cursor: pointer;
+}
+.meme {
+  position: relative;
+  grid-column: 1 / -1;
+}
+
+.meme--image {
+  width: 100%;
+  border-radius: 3px;
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.firstText {
+  top: 0;
+}
+.secondText {
+  top: 130px;
+}
+.thirdText {
+  top: 260px;
+}
+.fourthText {
+  top: 390px;
+}
+.fifthText {
+  top: 520px;
+}
